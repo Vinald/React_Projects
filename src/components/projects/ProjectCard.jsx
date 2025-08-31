@@ -1,4 +1,5 @@
 import styles from "./ProjectCard.module.css";
+import Button from "../Button/Button";
 
 function ProjectCard({ title, image, description }) {
     return (
@@ -14,6 +15,7 @@ function ProjectCard({ title, image, description }) {
                     <h3 className="card-title">{title}</h3>
                     <p className="card-text">{description}</p>
                 </div>
+                <Button>Read More</Button>
             </div>
         </div>
     );
