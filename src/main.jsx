@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'   // your custom CSS if needed
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';   // your overrides
+import './App.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
