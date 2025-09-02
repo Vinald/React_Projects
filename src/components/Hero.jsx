@@ -1,6 +1,4 @@
-import React from "react";
-
-const Intro = () => (
+const Hero = () => (
     <section id="intro" className="bg-dark text-light py-5">
         <div className="container text-center py-2">
             <h4 className="fw-light mb-3 text-uppercase text-secondary tracking-wider">
@@ -63,4 +61,4 @@ const Intro = () => (
     </section>
 );
 
-export default Intro;
+export default Hero;
