@@ -1,26 +1,30 @@
+import React from "react";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Experience from "./components/Experience/Experience.jsx";
-import Education from "./components/Education/Education.jsx";
+import Intro from "./components/Hero";
+import ContactCards from "./components/Contact/ContactCards";
+import Experience from "./components/Experience/Experience";
+import Education from "./components/Education/Education";
 import Skills from "./components/Skills";
-import Projects from "./components/projects/Projects.jsx";
-import Certificates from "./components/certificates/Certificates.jsx";
-import Contact from "./components/Contact";
+import Projects from "./components/Project/Projects";
+import Certificates from "./components/certificates/Certificates";
 import Footer from "./components/Footer";
 
 function App() {
     return (
-        <>
+        <div>
             <Navbar />
-            <Hero />
-            <Experience />
-            <Education />
-            <Skills />
-            <Projects />
-            <Certificates />
-            <Contact />
+            <div className="container my-5 html">
+                <Intro />
+                <ContactCards />
+                <Experience />
+                <Education />
+                <Skills />
+                <Projects />
+                <Certificates />
+            </div>
             <Footer />
-        </>
+        </div>
     );
 }
+
 export default App;
