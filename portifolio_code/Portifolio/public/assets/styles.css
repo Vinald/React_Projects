@@ -1,0 +1,67 @@
+/* styles.css */
+
+/* Gradient Text */
+.text-gradient-primary {
+  background: linear-gradient(90deg, #ff9800, #f44336);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Section Title Underline */
+.title-underline {
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.title-underline::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  background: #ffc107;
+  left: 25%;
+  bottom: 0;
+  border-radius: 2px;
+}
+
+/* Custom Icon Styling */
+.icon-lg {
+  font-size: 2rem;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-warning-soft {
+  background: rgba(255, 193, 7, 0.2);
+}
+
+/* Timeline (Education) */
+.timeline {
+  position: relative;
+  padding: 1rem 0;
+}
+
+.timeline-item {
+  margin-bottom: 2rem;
+}
+
+.timeline-item::before {
+  content: "•";
+  color: #ffc107;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+/* Footer Styling */
+footer {
+  background: #111;
+  font-size: 0.9rem;
+}
+
+/* Smooth Scroll (alternative to script.js) */
+html {
+  scroll-behavior: smooth;
+}
